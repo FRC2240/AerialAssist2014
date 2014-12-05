@@ -71,6 +71,7 @@ public class RobotTemplate extends IterativeRobot {
         detector    = new TargetDetector();
         detector.init();       
      
+        // Initialize encoders
         LeftEncoder.setMaxPeriod(ENCODER_MAX_PERIOD);
         LeftEncoder.setMinRate(ENCODER_MIN_RATE);
         LeftEncoder.setDistancePerPulse(ENCODER_DISTANCE_PER_PULSE);
